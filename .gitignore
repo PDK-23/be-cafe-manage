@@ -1,0 +1,79 @@
+# Environment files (including the existing .env.example with local values)
+.env
+.env.*
+*.env
+.envrc
+
+# Private keys, keystores and local credentials
+secrets/
+credentials/
+*.key
+*.pem
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa*
+id_ed25519*
+.npmrc
+.netrc
+settings.xml
+settings-security.xml
+
+# Machine-specific Spring configuration; keep shared application.properties
+application-local.properties
+application-local.yml
+application-local.yaml
+application-secrets.properties
+application-secrets.yml
+application-secrets.yaml
+application-*.local.properties
+application-*.local.yml
+application-*.local.yaml
+
+# Build output and local tools; keep Maven Wrapper and pom.xml
+target/
+out/
+*.class
+.tools/
+
+# Runtime data, logs, database exports and backups
+.logs/
+logs/
+*.log
+*.log.*
+*.pid
+*.hprof
+hs_err_pid*
+replay_pid*
+*.mv.db
+*.trace.db
+*.sqlite
+*.sqlite3
+*.db
+dumps/
+backups/
+uploads/
+*.dump
+*.bak
+*.sql.gz
+*.sql.zip
+*-dump.sql
+*_dump.sql
+dump*.sql
+backup*.sql
+# database/init.sql is source code and must remain versioned.
+
+# Local IDE/editor and operating system files
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
